@@ -23,6 +23,10 @@ public class Test {
 		   empList2.forEach(System.out::println);
 		   System.out.println("Employee List Display Above");
 		   System.out.println("This is the Feature Move to master");
+		   for(Employee emp1 : empList2)
+		   {
+			   System.out.println(emp1);
+		   }
 	}
 
 }
