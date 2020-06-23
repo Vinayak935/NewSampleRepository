@@ -21,6 +21,7 @@ public class Test {
 		List<Employee> empList2 = employeeList1.stream().filter(emp->emp.getEmpSalary() < 3000).map(emp1->new Employee(emp1.getEmpId(), emp1.getEmpName(), emp1.getEmpSalary())).collect(Collectors.toList());
 		
 		   empList2.forEach(System.out::println);
+		   System.out.println("Employee List Display Above");
 	}
 
 }
